@@ -1,0 +1,19 @@
+*application.properties
+
+FR_SERVER_PORT - port na kojem server sluša
+FR_MYSQL_DB_ADDR - ip adresa baze
+FR_MYSQL_DB_PORT - port na kojem baza sluša (3306)
+FR_MYSQL_DB_DATABASE - ime šeme baze podataka
+FR_MYSQL_DB_USERNAME - username za bazu 
+FR_MYSQL_DB_PASS - password za bazu
+
+
+*InAppPostController
+
+FR_MEDIA_SERVER_FILE - putanja do fajla gde se cuvaju slike i videa (npr. "/opt/tomcat/webapps/FriendRecap")
+FR_MEDIA_SERVER_URL - url servera koji prikazuje slike i videa (npr. "http://138.201.32.208:8080/FriendRecap/")
+
+
+*util.APNSPath
+
+FR_APNS_PATH - putanja do sertifikata za push notifikacije
