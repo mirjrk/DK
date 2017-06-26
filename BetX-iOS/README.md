@@ -1,6 +1,6 @@
-# Bet-X iOS #
+# BetX iOS #
 
-Bet-X iOS is betting application for iPhone/iPad users that allows users to place bets on different sports and matches, and to be paid up if they win a ticket. Features like Sport Betting, Live betting, statistic of the matches are interesting for Users of this app.
+BetX iOS is betting application for iPhone/iPad users that allows users to place bets on different sports and matches, and to be paid up if they win a ticket. Features like Sport Betting, Live betting, statistic of the matches are interesting for Users of this app.
 
 This application will be available on several markets in the world from South America, West and Central  Europe to East Europe.
 

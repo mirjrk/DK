@@ -1,4 +1,4 @@
-﻿# Friend Recap REST #
+﻿# Friend Recap Rest #
 
 Friend Recap REST is a back end application providing REST API for iOS client application. Friend Recap REST is part of the Friend Recap project - social networking app allowing people to automatically see all their social media activities in one place (Facebook, Instagram, Twitter…).
 
