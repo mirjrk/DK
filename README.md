@@ -39,8 +39,6 @@ This application will be available on several markets in the world from South Am
 
 Application is in the development phase.
 
-<img src="raw/navigation.png" width="200"> <img src="raw/home.png" width="200"> <img src="raw/sport-betting.png" width="200"> <img src="raw/details.png" width="200">
-
 ### Core Technical Concepts ###
 
 SignalR library is used for real time communication with back end. Client and server have a bi-directional communication. Content pushed from server is visible instantly on the client.
@@ -66,7 +64,7 @@ Application is built using Swift programming language.
 * info_ns@zesium.com
 
 
-# Friend Recap REST#
+# Friend Recap REST #
 
 Friend Recap REST is a back end application providing REST API for iOS client application. Friend Recap REST is part of the Friend Recap project - social networking app allowing people to automatically see all their social media activities in one place (Facebook, Instagram, Twitter…).
 
@@ -127,8 +125,6 @@ It is a mobile communication platform between drivers and important POIs, and al
 This is a Oslo/San Francisco startup with huge world market potential in the near future.
 
 Application is in the beta testing phase.
-
-<img src="raw/map.png" width="200"> <img src="raw/event.png" width="200"> <img src="raw/place.png" width="200"> <img src="raw/search.png" width="200">
 
 ### Core Technical Concepts ###
 
