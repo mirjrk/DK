@@ -1,16 +1,17 @@
-﻿# Friend Recap Rest #
+# JohnDeere-Rest #
 
-Friend Recap REST is a back end application providing REST API for iOS client application. Friend Recap REST is part of the Friend Recap project - social networking app allowing people to automatically see all their social media activities in one place (Facebook, Instagram, Twitter…).
+JohnDeere-Rest is a back end application providing REST API in [John Deere RTI system](JD.md). It is used by Android farmer and service applications and by web admin front end.
+ 
+It is developed for the needs of the JD Serbia distributor.
 
-It is in the RC phase.
+System is released in 2016.
 
 ### Core Technical Concepts ###
 
 * Spring framework is used for creating REST API.
 * Spring security is used for authentication and authorization.
-* Spring Data JPA is used as data access layer.
-* APNS Service is used for push notifications.
-* ffmpeg library is used for making video thumbnail.
+* Hibernate is used for object relational mapping.
+* GCM integration is used for sending push notifications.
 
 Application is written in Java programming language.
 

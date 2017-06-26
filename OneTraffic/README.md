@@ -1,6 +1,6 @@
-# One Traffic #
+# OneTraffic #
 
-One traffic is an application that provides necessary information about all relevant factors on the road. 
+OneTraffic is an application that provides necessary information about all relevant factors on the road. 
 
 It is a mobile communication platform between drivers and important POIs, and allows different users to navigate vehicles to requested places, to see relevant events on the road, and to make ads.
 

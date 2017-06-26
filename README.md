@@ -5,8 +5,8 @@ This repository contains projects codebase set for code review process which wil
 Projects in this repo:
 * [BetX-Android](BetX-Android), native Android application written in Java
 * [BetX-iOS](BetX-iOS), native iOS application written in Swift
-* [FriendRecap](FriendRecap), back end rest api written in Java
-* [JohnDeere](JohnDeere), back end rest api written in Java
+* [FriendRecap-Rest](FriendRecap-Rest), back end rest api written in Java
+* [JohnDeere-Rest](JohnDeere-Rest), back end rest api written in Java
 * [OneTraffic](OneTraffic), iOS application written in Objective-C
 
 ### Contact ###
