@@ -8,6 +8,8 @@ This is a Oslo/San Francisco startup with huge world market potential in the nea
 
 Application is in the beta testing phase.
 
+<img src="raw/map.png" width="200"> <img src="raw/event.png" width="200"> <img src="raw/place.png" width="200"> <img src="raw/search.png" width="200">
+
 ### Core Technical Concepts ###
 
 [Mapbox](https://www.mapbox.com/) open source SDK is used for displaying maps with turn-by-turn navigation.
@@ -15,8 +17,6 @@ Application is in the beta testing phase.
 Rest api is used for client-server communication.
 
 Application is built using Objective-C programming language.
-
-<img src="raw/map.png" width="200"> <img src="raw/event.png" width="200"> <img src="raw/place.png" width="200"> <img src="raw/search.png" width="200">
 
 ### Notice ###
 

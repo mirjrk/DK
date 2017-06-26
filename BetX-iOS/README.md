@@ -6,6 +6,8 @@ This application will be available on several markets in the world from South Am
 
 Application is in the development phase.
 
+<img src="raw/navigation.png" width="200"> <img src="raw/home.png" width="200"> <img src="raw/sport-betting.png" width="200"> <img src="raw/details.png" width="200">
+
 ### Core Technical Concepts ###
 
 SignalR library is used for real time communication with back end. Client and server have a bi-directional communication. Content pushed from server is visible instantly on the client.
@@ -13,8 +15,6 @@ SignalR library is used for real time communication with back end. Client and se
 For accessing non real time data, rest api is used.
 
 Application is built using Swift programming language.
-
-<img src="raw/navigation.png" width="200"> <img src="raw/home.png" width="200"> <img src="raw/sport-betting.png" width="200"> <img src="raw/details.png" width="200">
 
 ### Notice ###
 
