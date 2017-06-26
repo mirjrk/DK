@@ -17,7 +17,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.zesium.rest.cotroller.SparePartsOrderController;
+import com.zesium.rest.controller.SparePartsOrderController;
 
 /**
  * This class contains all common fields and methods.
