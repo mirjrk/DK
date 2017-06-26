@@ -17,55 +17,103 @@ public class OilOrderDaoImpl implements OilOrderDao {
 	@Autowired
 	private SessionFactory sessionFactory;
 
+	/**
+	 * This method returns session which represents main interface between
+	 * server and database.
+	 * 
+	 * @return session object
+	 */
 	private Session getCurrentSession() {
 		return sessionFactory.getCurrentSession();
 	}
-	
-	@Override
+
+	/**
+	 * Create new oil order in database.
+	 * 
+	 * @param oilOrder
+	 *            object with all oil order data that will be stored in database
+	 */
 	public void createOilOrder(com.zesium.rest.model.oil_order.OilOrder oilOrder) {
 		getCurrentSession().saveOrUpdate(oilOrder);
 	}
 
-	@Override
+	/**
+	 * Delete oil order from database by given ID.
+	 * 
+	 * @param id
+	 *            integer value of oil order ID
+	 */
 	public void deleteOilOrder(int id) {
 		OilOrder oilOrder = getOilOrder(id);
 		getCurrentSession().delete(oilOrder);
 	}
 
-	@Override
+	/**
+	 * Get all oil orders that exists in system.
+	 * 
+	 * @return list of all oil order objects.
+	 */
 	public List<com.zesium.rest.model.oil_order.OilOrder> getAllOilOrders() {
 		Session session = getCurrentSession();
 		Query query = session.createQuery("SELECT oo FROM OilOrder oo");
 		return query.list();
 	}
 
-	@Override
+	/**
+	 * Get oil order object by given oil order ID.
+	 * 
+	 * @param id
+	 *            value of oil order ID
+	 * @return oil order object that contains all oil order data
+	 */
 	public com.zesium.rest.model.oil_order.OilOrder getOilOrder(int id) {
 		return (OilOrder) getCurrentSession().get(OilOrder.class, id);
 	}
 
-	@Override
+	/**
+	 * Update existing oil order.
+	 * 
+	 * @param oilOrder
+	 *            updated object that will be stored in database
+	 * @return updated oil order object
+	 */
 	public com.zesium.rest.model.oil_order.OilOrder updateOilOrder(
 			com.zesium.rest.model.oil_order.OilOrder oilOrder) {
 		getCurrentSession().update(oilOrder);
 		return oilOrder;
 	}
 
-	@Override
+	/**
+	 * Get all oil orders for given district. This method will return only oil
+	 * order that corresponds users from specific registered district (service).
+	 * 
+	 * @param registeredDistrict
+	 *            value of registered district
+	 * @return list of oil orders
+	 */
 	public List<com.zesium.rest.model.oil_order.OilOrder> getOilOrdersForLocalService(
 			String registeredDistrict) {
 		Session session = getCurrentSession();
-		Query query = session.createQuery("select oo from OilOrder oo inner join oo.oilOrderUser oou "
-				+ "inner join oou.location ooul where ooul.registeredDistrict=:registeredDistrict ORDER BY date ASC");
+		Query query = session
+				.createQuery("SELECT oo FROM OilOrder oo INNER JOIN oo.oilOrderUser oou "
+						+ "INNER JOIN oou.location ooul WHERE ooul.registeredDistrict=:registeredDistrict ORDER BY date ASC");
 		query.setParameter("registeredDistrict", registeredDistrict);
 		return query.list();
 	}
 
-	@Override
-	public List<com.zesium.rest.model.oil_order.OilOrder> getOilOrdersForUser(int userId) {
+	/**
+	 * Get all oil orders for given user.
+	 * 
+	 * @param userId
+	 *            users ID
+	 * @return list of all users oil orders
+	 */
+	public List<com.zesium.rest.model.oil_order.OilOrder> getOilOrdersForUser(
+			int userId) {
 		Session session = getCurrentSession();
-		Query query = session.createQuery("select oo from OilOrder oo inner join oo.oilOrderUser oou "
-				+ "where oou.id=:userId ORDER BY date DESC");
+		Query query = session
+				.createQuery("SELECT oo FROM OilOrder oo INNER JOIN oo.oilOrderUser oou "
+						+ "WHERE oou.id=:userId ORDER BY date DESC");
 		query.setParameter("userId", userId);
 		return query.list();
 	}

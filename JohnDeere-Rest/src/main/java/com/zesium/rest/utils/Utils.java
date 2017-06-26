@@ -19,6 +19,12 @@ import org.slf4j.LoggerFactory;
 
 import com.zesium.rest.cotroller.SparePartsOrderController;
 
+/**
+ * This class contains all common fields and methods.
+ * 
+ * @author Ivan Panic_2
+ *
+ */
 public class Utils {
 	private static final Logger LOGGER = LoggerFactory.getLogger(Utils.class);
 

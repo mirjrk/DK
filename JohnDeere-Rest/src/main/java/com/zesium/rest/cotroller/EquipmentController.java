@@ -47,6 +47,7 @@ public class EquipmentController {
 	private static final Logger LOGGER = LoggerFactory
 			.getLogger(EquipmentController.class);
 
+	
 	@RequestMapping(value = "mobile/user/equipment/getEquipmentsForUser/{userId}", method = RequestMethod.GET)
 	public @ResponseBody List<Equipment> getEquipmentsForUser(
 			@PathVariable("userId") int userId) throws IOException {
