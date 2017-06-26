@@ -1,0 +1,26 @@
+<RelativeLayout
+    android:id="@+id/rl_splash"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zesium.android.betting.ui.main.SplashScreenActivity">
+    <!-- android:background="@drawable/background_logo_light"-->
+
+   <!-- <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/splash_screen_img_background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_logo"/>-->
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="@color/primary_red"
+        android:indeterminateTintMode="src_in"
+        tools:targetApi="lollipop"/>
+</RelativeLayout>

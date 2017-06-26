@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="myPrimaryColor" format="color|reference"/>
+    <attr name="myPrimaryColorDark" format="color|reference"/>
+    <attr name="myAccentColor" format="color|reference"/>
+
+    <attr name="textViewRegistrationBackgroundColor" format="color" />
+    <attr name="backgroundLayoutColorRegistration" format="color|reference" />
+    <attr name="bcgMatchHomeScreen" format="color|reference" />
+    <attr name="homeScreenDivider" format="color|reference" />
+    <attr name="homeScreenTopBar" format="color|reference" />
+    <attr name="etBoxLoginWithPin" format="color|reference" />
+    <attr name="homeScreenBottomLogo" format="reference" />
+    <attr name="ticketsListStatusIconBackground" format="color|reference" />
+    <attr name="ticketsListRowBackgroundColor" format="color|reference" />
+    <attr name="textColor" format="color|reference"/>
+    <attr name="allRightsReservedTextColor" format="color|reference" />
+    <attr name="darkBackgroundMatchDetail" format="color|reference" />
+    <attr name="radioButtonsSportBetting" format="reference" />
+    <attr name="redGreenColorTextSwitch" format="color|reference" />
+    <attr name="tabBackgroundLightDark" format="color|reference" />
+    <attr name="filterDialogGFrayDividerLine" format="color|reference" />
+    <attr name="registrationButtonTextColor" format="color|reference" />
+    <!--<attr name="progressBarStyleTicketsList" format="reference" />-->
+    <attr name="sportsBettingDivider" format="color|reference" />
+    <attr name="ticketDetailLightDarkBackground" format="color|reference" />
+    <attr name="matchDetailsOddBackground" format="color|reference" />
+    <attr name="insideRowDivider" format="color|reference" />
+    <attr name="ticketListRowDivider" format="color|reference" />
+    <attr name="bcgChart" format="color|reference" />
+    <attr name="payInText" format="color|reference" />
+    <attr name="gridViewLiveBetting" format="color|reference"/>
+
+</resources>

@@ -1,0 +1,12 @@
+ext.zesium_repos = {
+    maven {
+        url 'http://138.201.32.208:8081/artifactory/libs-release'
+        //noinspection GroovyAssignabilityCheck
+        credentials {
+            username = "${artifactory_user}"
+            password = "${artifactory_password}"
+        }
+    }
+}
+
+ext.supportLibVersion = "25.3.1"

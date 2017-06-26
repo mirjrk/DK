@@ -1,0 +1,5 @@
+# John Deere RTI #
+
+John Deere RTI is a system developed for the needs of the JD Serbia distributor and consists of three main functions.
+
+The first of these is an Android application that allows farmers to report any malfunctions of their harvesters, tractors, and machines. Secondly, it comprises of a Service application that helps the management of a company to monitor and supervise all crisis events and malfunctions reported via the farmers’ application. Lastly, it also an admin web application that helps John Deere management in administration of employees and events relevant to their needs. The module where farmers can create is the most important module, as it sends notifications through the application and an SMS to farmers regarding all updates on the field allowing them a new intelligence in their sales and marketing.

@@ -1,0 +1,426 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?backgroundLayoutColorRegistration"
+        android:orientation="vertical">
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/tv_personal_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="?textViewRegistrationBackgroundColor"
+            android:padding="16dp"
+            tools:text="Personal Data" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_account_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                tools:text="Account holder:" />
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_account_holder_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:imeOptions="actionNext"
+                android:inputType="none"
+                android:longClickable="false"
+                android:maxLines="1"
+                android:textColor="@color/text_gray"
+                tools:text="Adnan Canic" />
+
+        </LinearLayout>
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/tv_bank_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="?textViewRegistrationBackgroundColor"
+            android:padding="16dp"
+            tools:text="Bank Data" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_bank_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:imeOptions="actionNext"
+                android:inputType="none"
+                android:longClickable="false"
+                android:maxLines="1"
+                tools:text="Bank name:" />
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_bank_name_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:imeOptions="actionNext"
+                android:inputType="none"
+                android:longClickable="false"
+                android:maxLines="1"
+                android:textColor="@color/text_gray"
+                tools:text="Všepbecna uverova banka, as" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray_line_divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_bank_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:imeOptions="actionNext"
+                android:inputType="none"
+                android:longClickable="false"
+                android:maxLines="1"
+                tools:text="Country:" />
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_bank_country_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:imeOptions="actionNext"
+                android:inputType="none"
+                android:longClickable="false"
+                android:maxLines="1"
+                android:textColor="@color/text_gray"
+                tools:text="Slovakia" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray_line_divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_bank_account_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                tools:text="Bank account number:" />
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_bank_account_number_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:imeOptions="actionNext"
+                android:inputType="none"
+                android:longClickable="false"
+                android:maxLines="1"
+                android:textColor="@color/text_gray"
+                tools:text="SK 4802000000000000000123123123" />
+
+        </LinearLayout>
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/tv_withdraw_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="?textViewRegistrationBackgroundColor"
+            android:padding="16dp"
+            tools:text="Withdraw Data" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_withdraw_credit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:imeOptions="actionNext"
+                android:inputType="none"
+                android:longClickable="false"
+                android:maxLines="1"
+                tools:text="Credit" />
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_withdraw_credit_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:imeOptions="actionNext"
+                android:inputType="none"
+                android:longClickable="false"
+                android:maxLines="1"
+                android:textColor="@color/text_gray"
+                tools:text="100.233,52 $" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray_line_divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_withdraw_min_limit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:imeOptions="actionNext"
+                android:inputType="none"
+                android:longClickable="false"
+                android:maxLines="1"
+                tools:text="MIN Withdraw limit:" />
+
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_withdraw_min_limit_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:imeOptions="actionNext"
+                android:inputType="none"
+                android:longClickable="false"
+                android:maxLines="1"
+                android:textColor="@color/text_gray"
+                tools:text="10,00 $" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray_line_divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_withdraw_max_limit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:imeOptions="actionNext"
+                android:inputType="none"
+                android:longClickable="false"
+                android:maxLines="1"
+                tools:text="MAX Withdraw limit:" />
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_withdraw_max_limit_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:imeOptions="actionNext"
+                android:inputType="none"
+                android:longClickable="false"
+                android:maxLines="1"
+                android:textColor="@color/text_gray"
+                tools:text="1,000,00 $" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray_line_divider" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            app:errorEnabled="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:weightSum="4.5">
+
+                <com.zesium.android.betting.ui.widgets.SFFontTextView
+                    android:id="@+id/tv_amount_for_withdraw"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:layout_weight="3"
+                    tools:text="Enter amount for withdraw:*" />
+
+                <com.zesium.android.betting.ui.widgets.SFFontEditText
+                    android:id="@+id/et_withdraw_amount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/bcg_pay_in_light"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textColor="?payInText"
+                    tools:text="0.00$" />
+            </LinearLayout>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/tv_security_confirmation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="?textViewRegistrationBackgroundColor"
+            android:padding="16dp"
+            tools:text="Security confirmation" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_withdraw_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            app:errorEnabled="true">
+
+            <com.zesium.android.betting.ui.widgets.SFFontEditText
+                android:id="@+id/et_withdraw_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:ellipsize="end"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="@color/text_gray"
+                tools:hint="@string/enter_your_password" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_default"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:textColor="@color/white"
+                tools:text="CONFIRM" />
+            <!--android:enabled="false"-->
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

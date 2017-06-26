@@ -1,0 +1,274 @@
+<resources>
+    // Application name
+    <string name="app_name">BetX</string>
+
+    // Splash screen
+    <string name="application_logo">Splash screen logo</string>
+
+    // Menu items
+
+    // Home screen
+    <string name="login_or_register">Login or register</string>
+    <string name="enjoy_placing_bets_txt">Enjoy placing your bets!</string>
+    <string name="match_floating_view">&#160;match</string>
+    <string name="matches_floating_view">&#160;matches</string>
+
+    // Login screen
+    <string name="login_empty_password">Please enter your password</string>
+    <string name="login">Login</string>
+    <string name="user_background">User background</string>
+    <string name="login_wrong_credentials">Wrong credentials, please try again.</string>
+    <string name="login_server_error">Error occurred on server side, please try again later.</string>
+    <string name="login_failed">Login failed</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</string>
+
+    // No internet connection dialog strings
+    <string name="no_internet_connection_tittle">No network connection</string>
+    <string name="no_internet_connection_message">Internet is not available on your device, please check your internet connectivity and try again.</string>
+
+    // Navigation drawer strings
+    <string name="navigation_drawer_sport_betting">Sports Betting</string>
+    <string name="navigation_drawer_settings">Settings</string>
+    <string name="navigation_drawer_my_tickets">My Tickets</string>
+    <string name="navigation_drawer_logout">Logout</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="navigation_drawer_home">Home</string>
+    <string name="navigation_drawer_live_betting">Live Betting</string>
+    <string name="navigation_drawer_bonuses">Bonuses</string>
+    <string name="navigation_drawer_about">About</string>
+    <string name="please_login">Please login</string>
+    <string name="or">or</string>
+    <string name="register">register</string>
+    <string name="navigation_drawer_item">Navigation drawer item</string>
+
+    // Best offer strings
+
+    // Toolbar titles
+
+    // Dialogs
+    <string name="dialog_exit_title">Exit Application?</string>
+    <string name="dialog_exit_text">Are you sure you want to exit BetX application?</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="logout_dialog_title">Logout</string>
+    <string name="logout_dialog_message">Are you sure you want to log out?</string>
+    <string name="logout_dialog_message_logout">Log Out</string>
+
+    <string name="dialog_title_warning">Warning</string>
+
+    // Tickets
+    <string name="ticket_date_and_time">Date and time</string>
+    <string name="total_odds">Total odds:&#160;</string>
+    <string name="match_vs_value">vs</string>
+
+    // Pin
+    <string name="title_activity_login_with_pin">Login with PIN</string>
+    <string name="title_activity_create_pin">Create PIN code</string>
+    <string name="tv_user_id">User ID</string>
+    <string name="enter_pin">Enter PIN code</string>
+    <string name="tv_enter_pin_code">Enter PIN code</string>
+    <string name="incorrect_pin_message">Your pin code number isn\'t correct please try again</string>
+    <string name="login_as_another_user"><u>Login as another user</u></string>
+    <string name="pin_login_info_warning_dialog">You have entered wrong PIN 5 times, You will be logged out from the application.</string>
+
+    // facebook
+    <string name="facebook_app_id">1142686112449659</string>
+
+    // Sports
+    <string name="unauthorized">Unauthorized</string>
+
+
+    // Registration
+    <string name="personal_information">Personal information</string>
+    <string name="personal">Personal</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="address">Address</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="account_security">Account Security</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="street_name_and_number">Street name and number</string>
+    <string name="post_code">Post Code</string>
+    <string name="country">Country</string>
+    <string name="region">Region</string>
+    <string name="city">City</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter your password:</string>
+    <string name="old_password">Old password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="security_question">Security question</string>
+    <string name="security_answer">Security answer</string>
+    <string name="security">Security</string>
+    <string name="email">Email</string>
+    <string name="email_registration">Email (email@example.com)</string>
+    <string name="email_example">email@example.com</string>
+    <string name="phone_number">Phone number</string>
+    <string name="date">25-May-1989</string>
+    <string name="submit">Submit</string>
+    <string name="update_profile">UPDATE</string>
+    <string name="terms_and_conditions">I accept general terms and conditions</string>
+    <string name="terms_and_conditions_personal_info">Terms and conditions</string>
+    <string name="service_provider_store_data">I accept that service provider will store my personal data</string>
+    <string name="receive_updates">I want to receive updates and information to my email</string>
+    <string name="error_password">Must be 6 &#45; 15 characters, minimum one capital, one lowercase letter and one digit.</string>
+    <string name="error_confirm_password">Confirm password must be identical to original password.</string>
+    <string name="error_email_not_valid">Email is not entered in valid format.</string>
+    <string name="error_street_name_and_number">You must enter street name and number.</string>
+    <string name="error_phone_number">Phone number must start with sign "+" and contain at least 9 numbers.</string>
+    <string name="error_security_answer">Security answer length must be max 20 characters long.</string>
+    <string name="error_post_code">Post code must be 5 &#45; 10 characters long.</string>
+    <string name="error_first_name">Please enter valid first name.</string>
+    <string name="error_last_name">Please enter valid last name.</string>
+    <string name="error_username">Username must contain 5 &#45; 10 characters.</string>
+    <string name="error_username_not_available">Username is already in use, please select different one.</string>
+    <string name="change">CHANGE</string>
+    <string name="change_personal_data_contact_cs">For changing personal information please contact customer service.</string>
+    <string name="password_changed">You have successfully changed your password!</string>
+    <string name="security_data_changed">You have successfully changed your security settings!</string>
+    <string name="order_club_card">Order club card</string>
+    <string name="registration_fill_in_all_fields">Please fill in all fields to complete registration!</string>
+
+    <string name="confirm_new_password">Retype password</string>
+    <string name="enter_new_password">Enter new password</string>
+
+    <string name="choose_country">Choose your country</string>
+    <string name="choose_region">Choose your region</string>
+    <string name="choose_city">Choose your city:</string>
+    <string name="choose_security_question">Choose security question:</string>
+    <string name="error_on_server_side">Error on server side.</string>
+
+    <string name="token_expired">Your token has expired so you will be logged out from the application. Please log in again.</string>
+
+    // Confirmation code
+    <string name="send_new_code">Send new code</string>
+    <string name="confirmation_code">Confirmation Code</string>
+    <string name="time_is_up">Time is up!</string>
+    <string name="sms_code_info">An SMS with a verification code was sent to your phone and should arrive shortly.</string>
+
+    // Forgot password
+    <string name="title_forgot_password">Forgotten password?</string>
+    <string name="reset_password">Reset password</string>
+    <string name="forgot_password_text">In case of any problems please contact us at 0905 666 695.</string>
+    <string name="user_not_found">User not found</string>
+    <string name="recovery_data_sent">Recovery data sent to your mail.</string>
+    <string name="title_activity_registration">Registration</string>
+
+    //Contact Us
+    <string name="title_contact_us">Contact Us</string>
+    <string name="availability">Availability</string>
+    <string name="monday_friday">Mon – Sun:</string>
+    <string name="non_stop">non-stop</string>
+    <string name="telephone">Telephone</string>
+    <string name="phone_number_one">0905 666 695</string>
+    <string name="phone_number_two">78956233658</string>
+    <string name="company_name">JUNIOR GAME spol. s r.o.</string>
+    <string name="street">Bebravská 11</string>
+    <string name="betx_city">Bratislava 821 07</string>
+    <string name="betx_email">betx@betx.sk</string>
+    <string name="version">Version</string>
+    <string name="version_number">1.0</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_login_name_hint">Enter Username/Email</string>
+
+    //Settings
+
+    //Table of leagues - sport betting
+
+    // Sport Betting
+
+
+    // Sport Betting
+    <string name="check_internet">Please check your internet connection</string>
+
+    // Time out exception
+    <string name="request_time_out">Request timed out, please try again</string>
+
+    // Create ticket
+    <string name="text_no_matches">There are no matches</string>
+
+    // Live betting
+    <string name="live_betting_no_matches">Currently no live matches in play</string>
+    <string name="live_betting_tennis_adv">ADV</string>
+
+    // Payment
+    <string name="transactions_amount_title">Amount</string>
+    <string name="transactions_new_balance_title">New balance</string>
+    <string name="deposit_money_amount">Amount</string>
+    <string name="deposit_money_confirm">CONFIRM</string>
+
+    // Withdraw Funds
+    <string name="withdraw_funds_personal_data">Personal Data</string>
+    <string name="withdraw_funds_bank_data">Bank Data</string>
+    <string name="withdraw_funds_withdraw_data">Withdraw Data</string>
+    <string name="withdraw_funds_security_confirmation">Security confirmation</string>
+    <string name="withdraw_funds_confirm_caps">CONFIRM</string>
+    <string name="withdraw_funds_account_holder">Account holder:</string>
+    <string name="withdraw_funds_bank_name">Bank name:</string>
+    <string name="withdraw_funds_bank_country">Country:</string>
+    <string name="withdraw_funds_bank_account_number">Bank account number:</string>
+    <string name="withdraw_funds_credit">Credit</string>
+    <string name="withdraw_funds_min_limit">MIN Withdraw limit:</string>
+    <string name="withdraw_funds_max_limit">MAX Withdraw limit:</string>
+    <string name="withdraw_funds_enter_amount">Enter amount for withdraw:</string>
+    <string name="withdraw_funds_enter_password">Enter your password:</string>
+
+
+    <string name="less_than_min">Less than min user withdraw</string>
+    <string name="greater_than_max">Greater than max user withdraw</string>
+    <string name="no_enough_credit">There is not enough credit</string>
+    <string name="min_transaction_for_provider">Min. deposit for this provider is</string>
+    <string name="max_transaction_for_provider">Max transaction for this provider is</string>
+
+    <string name="tv_add_bank_data">Please add it</string>
+    <string name="btn_add_bank_data">Add bank data</string>
+    <string name="tv_upload_government_id">Upload government ID</string>
+    <string name="btn_upload_government_id">Upload ID</string>
+    <string name="withdraw_funds_success">Withdrawal request has been successfully sent.</string>
+    <string name="withdraw_funds_wrong_password">Wrong password</string>
+    <string name="fragment_title_bank">Bank</string>
+
+    //Translations
+    <string name="payment_title">Payment</string>
+    <string name="money_deposit_funds">Deposit Funds</string>
+    <string name="money_withdraw_funds">Withdraw Funds</string>
+    <string name="money_transactions">Transactions</string>
+    <string name="money_transactions_json">MoneyTransactions</string>
+
+
+    <string name="username_txt">Username</string>
+    <string name="fill_all_fields_to_complete_registration">Please fill all fields to complete registration</string>
+    <string name="server_not_available">Server is not available at the moment</string>
+
+    <string name="inserted_info_not_valid">Inserted information is not valid, please check input errors</string>
+    <string name="change_security_question">Change security question</string>
+    <string name="user_preferences">User preferences</string>
+    <string name="please_accept_recording_data">Please accept recording data</string>
+    <string name="invalid_birthdate">Invalid birthdate</string>
+    <string name="receive_sms_permission_disabled">Permission for receiving SMS must be enabled!</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="enter_username_or_email">Please enter username or email</string>
+    <string name="enter_password">Please enter password</string>
+    <string name="enter_answer">Please enter the answer to your private question</string>
+
+    //Contact us
+    <string name="working_hours_title">Working hours</string>
+    <string name="working_days_value">Mon - Sun</string>
+    <string name="working_hours_value">Non Stop</string>
+    <string name="phone_number_value">0905 666 695</string>
+    <string name="address_title">Address</string>
+    <string name="address_value">JUNIOR GAME spol. s r.o.</string>
+    <string name="region_value">Berbavska 11</string>
+    <string name="city_value">Bratislava 821 07</string>
+    <string name="email_title">E-mail</string>
+    <string name="email_value">betx@betx.sk</string>
+    <string name="version_title">Version</string>
+    <string name="version_value">1.0</string>
+
+    //Change Password
+    <string name="title_activity_type_new_password">Enter new password</string>
+
+
+</resources>

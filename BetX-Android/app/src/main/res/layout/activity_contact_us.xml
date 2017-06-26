@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?backgroundLayoutColorRegistration"
+    tools:context="com.zesium.android.betting.ui.main.ContactUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/tv_availability_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/availability"
+            android:layout_marginBottom="6dp"
+            android:textStyle="bold" />
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/tv_working_days_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/monday_friday"
+            android:textColor="@color/grey_divider_pin"/>
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/tv_working_hours_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/non_stop"
+            android:textColor="@color/grey_divider_pin"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:background="@color/grey_divider_pin" />
+
+    <LinearLayout
+        android:id="@+id/ll_telephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/tv_telephone_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            tools:text="@string/telephone"
+            android:textStyle="bold" />
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/tv_telephone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/phone_number_one"
+            android:textColor="@color/primary_dark_red"/>
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number_two"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:background="@color/grey_divider_pin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/tv_address_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            tools:text="@string/address"
+            android:textStyle="bold" />
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/tv_address_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/company_name"
+            android:textColor="@color/grey_divider_pin"/>
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/tv_region_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/street"
+            android:textColor="@color/grey_divider_pin"/>
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/tv_city_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/betx_city"
+            android:textColor="@color/grey_divider_pin"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:background="@color/grey_divider_pin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/ll_email"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/tv_email_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            tools:text="@string/email"
+            android:textStyle="bold" />
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/betx_email"
+            android:textColor="@color/primary_dark_red"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:background="@color/grey_divider_pin" />
+
+    </LinearLayout>
+
+    <com.zesium.android.betting.ui.widgets.SFFontTextView
+        android:id="@+id/tv_version_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center|bottom"
+        android:text="@string/version_number" />
+
+    <com.zesium.android.betting.ui.widgets.SFFontTextView
+        android:id="@+id/tv_version_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_above="@id/tv_version_number"
+        android:gravity="center|bottom"
+        tools:text="@string/version" />
+
+    <ImageView
+        android:id="@+id/betx_logo_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|center"
+        android:layout_above="@id/tv_version_name"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_betx_logo" />
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_odd"
+    android:layout_width="match_parent"
+    android:layout_height="32dp"
+    android:background="?matchDetailsOddBackground"
+    android:minWidth="100dp"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_odd_value"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/tv_odd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:lines="1"
+            android:maxLines="1"
+            android:textColor="@color/sports_betting_odd" />
+
+        <ImageView
+            android:id="@+id/iv_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_system_betting_lock_red"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <com.zesium.android.betting.ui.widgets.SFFontTextView
+        android:id="@+id/tv_odd_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_toLeftOf="@id/rl_odd_value"
+        android:layout_toStartOf="@id/rl_odd_value"
+        android:ellipsize="none"
+        android:fadingEdge="horizontal"
+        android:fontFamily="trebuchet"
+        android:gravity="start"
+        android:lines="1"
+        android:maxLines="1"
+        android:requiresFadingEdge="horizontal"
+        android:singleLine="true"
+        android:textColor="@color/sports_betting_odd" />
+</RelativeLayout>

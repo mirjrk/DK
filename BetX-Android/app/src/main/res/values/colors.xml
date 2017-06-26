@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_red">#D0112B</color>
+    <color name="primary_dark_red">#b71918</color>
+    <color name="accent_red">#b71918</color>
+    <color name="text_gray">#999999</color>
+    <color name="box_pin_light">#e2e2e2</color>
+    <color name="box_pin_dark">#232325</color>
+    <color name="gray_line_divider">#c7c7c7</color>
+    <color name="gray_text_pin">#939393</color>
+    <color name="gray_filter_dialog_divider">#898989</color>
+
+    <color name="accent">#b71918</color>
+    <color name="grey_divider_pin">#b0b0b0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="light_gray_subtitle_background">#f9f9f9</color>
+    <color name="dark_gray_subtitle_background">#1c1c1c</color>
+    <color name="input_text_bottom_line">#b0b0b0</color>
+
+    <color name="sports_betting_line">#efefef</color>
+    <color name="sports_betting_parent_selected">#efefef</color>
+    <color name="sports_betting_odd">#999999</color>
+    <color name="filter_dialog_sports_betting_dark_background">#1a1a1a</color>
+
+    <color name="bcg_match_home_screen">#393939</color>
+    <color name="home_screen_divider_dark">#232323</color>
+
+    <color name="grey_text">#939393</color>
+    <color name="credentials_circle_background">#ccdc00</color>
+
+    <color name="rbtn_dark_background">#252525</color>
+
+    <color name="window_background_black">#0f0f0f</color>
+
+    <color name="gray_list_of_tickets_text">#a2a2a2</color>
+    <color name="gray_list_of_tickets_status">#fafafa</color>
+    <color name="status_icon_tickets_list_background_dark">#252525</color>
+    <color name="dark_gray_tickets_list">#868080</color>
+    <color name="red_status_ticket_lose">#cb0707</color>
+    <color name="green_status_ticket_win">#25a51b</color>
+    <color name="dark_selected_league_sport_betting">#252525</color>
+    <color name="light_gray_ticket_detail_background">#eeeeee</color>
+    <color name="gray_light_ticket_divider">#d5d5d5</color>
+    <color name="gray_test">#848484</color>
+    <color name="gray_ticket_row_separator">#939393</color>
+    <color name="gray_divider">#1FFFFFFF</color>
+    <color name="pay_in_background_dark_theme">#3c3c3c</color>
+    <color name="fast_bet_transparent_red">#F2d52740</color>
+
+    <color name="red_navigation_drawer_header">#80cf1228</color>
+
+    <color name="gray_transparent_odd">#408b8b8b</color>
+</resources>

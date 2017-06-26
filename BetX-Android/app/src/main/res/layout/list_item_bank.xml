@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_payment_provider"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rl_selected_bank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp">
+
+        <!--<android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/rb_selected_bank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/primary_red"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center" />-->
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/rb_selected_bank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="?ticketsListRowBackgroundColor"
+            android:clickable="false"
+            android:gravity="center"
+            app:buttonTint="@color/primary_red" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_bank_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@id/rl_selected_bank"
+        android:layout_toRightOf="@id/rl_selected_bank"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_bank_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?textColor" />
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_allowed_amount_of_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:textColor="?textColor" />
+        </LinearLayout>
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/tv_bank_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/sports_betting_odd" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/ll_bank_data"
+        android:layout_marginTop="6dp"
+        android:background="?sportsBettingDivider" />
+</RelativeLayout>

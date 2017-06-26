@@ -1,0 +1,249 @@
+/*
+ Localizable.strings
+ OneTraffic
+ 
+ Created by Stefan Andric on 12/21/15.
+ Copyright © 2015 Zesium. All rights reserved.
+ */
+
+
+"Error" = "Feil";
+"UnknownError" = "Ukjent feil";
+"Edit" = "Edit";
+"Services" = "Services";
+"Stop" = "Stop";
+
+//TermsViewController
+"terms_text" = "IMPORTANT - PLEASE READ THESE TERMS AND CONDITIONS AND THE RELATED DOCUMENTS IDENTIFIED BELOW CAREFULLY BEFORE OPENING USING OUR SERVICES. THIS ONLINE AND CELLULAR MEDIA SERVICE AGREEMENT (\"AGREEMENT\") IS A BINDING LEGAL CONTRACT BETWEEN YOU AND ONETRAFFIC, INC. (\"WE\", “OUR”, \"US\", OR \"ONETRAFFIC\"). BY DOWNLOADING, INSTALLING, ACCESSING OR USING THE SOFTWARE, SERVICES, AND ANY OTHER MATERIALS MADE AVAILABLE BY US (COLLECTIVELY, THE \"SERVICES\"), YOU (A) AGREE TO BE BOUND BY THIS AGREEMENT; (B) ACKNOWLEDGE AND AGREE YOU HAVE INDEPENDENTLY EVALUATED THE DESIRABILITY OF USING THE SERVICES; AND (C) REPRESENT YOU ARE LAWFULLY ABLE TO ENTER INTO CONTRACTS AND ARE OF THE LEGAL AGE OF MAJORITY IN THE JURISDICTION IN WHICH YOU RESIDE (AT LEAST EIGHTEEN YEARS OF AGE IN MANY COUNTRIES). IN ADDITION, IF THIS AGREEMENT IS BEING AGREED TO BY A COMPANY OR OTHER LEGAL ENTITY, THEN THE PERSON AGREEING TO THIS AGREEMENT ON BEHALF OF THAT COMPANY OR ENTITY REPRESENTS AND WARRANTS THAT HE OR SHE IS AUTHORIZED AND LAWFULLY ABLE TO BIND THAT COMPANY OR ENTITY TO THIS AGREEMENT. YOU SHOULD PRINT AND RETAIN A COPY OF THIS AGREEMENT FOR YOUR RECORDS BY USING THE PRINT FUNCTIONALITY IN YOUR BROWSER. THE CONDITIONS ARE SUBJECT TO CHANGE FROM TIME TO TIME AS DESCRIBED BELOW. PLEASE READ THIS DOCUMENT CAREFULLY. IT CONTAINS IMPORTANT INFORMATION ABOUT YOUR RIGHTS AND OBLIGATIONS. IT ALSO CONTAINS A DISPUTE RESOLUTION CLAUSE. IF YOU DO NOT AGREE TO THIS AGREEMENT, YOU MAY NOT USE THESE SERVICES.\n\nServices\nDa da";
+
+
+//LoginViewController
+"LogIn" = "LOGG IN";
+"Create new" = "Eller opprett ny konto";
+"Forgot your password?"= "Glemt passord?";
+"Reset" = "TILBAKESTILLE";
+
+//CountriesListViewController
+"SelectCountry" = "Velg land";
+
+//SettingViewController
+"en" = "English";
+"nb" = "Norwegian";
+"Language" = "Språk";
+"AlertRadius" = "Alert Radius";
+"AlertSound" = "Lyd";
+"Unit" = "Avstand";
+"Time" = "Tid/24";
+"Distance" = "Avstand";
+"Save" = "Lagre";
+"Skip" = "Skip";
+"AllowDataUsage" = "Allow Anonymous Data";
+"ClearHistoryConfirm" = "Vil du virkelig slette disse data?";
+
+//SignUpViewController
+"Name"= "Vennligst skriv riktig navn";
+"Password"= "Passord";
+"RepeatPassword" = "Repeat Password";
+"Email"= "Email";
+"Mobile phone"= "Mobilnummer";
+"OK"="OK";
+"SignUp"= "MELDE DEG PÅ";
+"Send"="Send";
+"Terms of use"="Terms of use";
+"RepeatPassword" = "Gjenta Passord";
+"JoiningTerms" = "Ved å bli medlem, aksepterer jeg vilkårene for bruk";
+
+//CodeViewController
+"Enter code" = "Enter Code";
+"Next" = "NESTE";
+"ResendCode" = "Send kode på nytt";
+"SentSms" = "En tilgangskode er sendt til deg via SMS.";
+
+//ProfileViewController
+"PIN" = "PIN";
+"Phone Number"= "Phone Number";
+"Member Since"= "Member Since";
+"Gender"= "Kjønn";
+"Birthdate"= "Fødselsdato";
+"camera_text"="Camera";
+"gallery_text"= "Gallery";
+"Cancel"= "Kanseller";
+"Empty" = "Tømme";
+"MemberSince" = "Medlem siden";
+"Male" = "Mann";
+"Female" = "Kvinne";
+"ChangePassword" = "Endre passord";
+"OldPassword" = "Gammel password";
+"NewPassword" = "Nytt passord";
+"ConfirmPassword" = "Bekreft passord";
+"NotValidDate" = "Ugyldig dato";
+"ValidMail" = "Mail E-post må være gyldig for gjenoppretting av passord osv. Vi deler ikke din adresse og sender ingen søppelpost.";
+"SelectGender" = "Genser Vennligst velg kjønn.";
+"ChooseBirthdate" = "Angi din fødsselsdag.";
+"ProfileUpdated" = "Profil oppdatert";
+
+"Done" = "Ferdig";
+
+//Login error codes
+"125000" = "Couldn't get all necessary data from client";
+"125003" = "Password is wrong";
+"125004" = "User didn't finish sign up process";
+"125005" = "Phone number does not exist in database";
+"125020" = "Database problem";
+
+
+//Sign up error codes
+"102000" = "Couldn't get all necessary data from url";
+"102001" = "Phone number is already in database";
+"102002" = "Phone number is already in database";
+"102020"= "Database problem";
+
+//Number verification error codes
+"103000"= "Couldn't get all necessary data from url";
+"103001"= "SMS Code is wrong";
+"103002"= "User id is wrong";
+"103010"= "Database problem";
+"103020"= "Database problem";
+
+//Quick Messages
+"Ok" = "Ok";
+"No" = "Nei";
+"Driving" = "Kjører";
+"Delayed" = "Forsinket";
+"Locator" = "Locator";
+"Started" = "Startet";
+"Soon" = "Snart";
+"When?" = "Når?";
+"Where?" = "Hvor?";
+
+"Started" = "Startet"; 
+"Arrived" = "Fremme";
+"Pickups?" = "Ta med?";
+
+//CommunicatorViewController
+"Search" = "Søk";
+"Today" = "I dag";
+"Yesterday" = "i går";
+"Delete" = "Slett";
+"DeleteSure" = "Er du sikker på at du vil slette?";
+
+"Invited" = "Invitert";
+"Accepted" = "Akseptert";
+"Declined" = "Forkastet";
+"Sent" = "Sendt";
+"Accept" = "Aksept";
+"Message" = "Melding";
+"Active" = "Aktiv";
+"Leaved" = "Stopp";
+"Finished" = "Ferdig";
+"Pending" = "Venter";
+"Declined" = "Nekte";
+"Expired" = "Utløpt";
+"SentRequest" = "Forespørsel sendt";
+"LocationSharing" = "Posisjonsdeling";
+"Request" = "Forespørsel";
+"FriendInvitation" = "Venneforespørsel";
+
+//LineUpViewController
+"MyLocation" = "MITT BELIGGENHET";
+
+//TopBar
+"NextPlace" = "Vennligst velg neste sted";
+
+//PlusMenu
+"AddPlace" = "Legg til sted";
+"AddFriend" = "Legg til venn";
+"Channels" = "Channels";
+"Locator" = "Locator";
+"ReportEvent" = "Rapporter hendelse";
+"Settings" = "Innstillinger";
+"Event" = "Hendelse";
+
+//DestinationListViewController
+"Places" = "Steder";
+"AddPlace" = "Legg til sted";
+"NamePlace" = "Navn";
+"Street" = "Gate";
+"MyPlace" = "Mitt sted";
+
+"Home" = "Hjem";
+"Work" = "Arbeid";
+"Sports" = "Sport";
+"Culture" = "Kultur";
+"School" = "Skole";
+"Transportation" = "Transport";
+"Commercial" = "Commercial";
+"Parking" = "Parkering";
+"Undefined" = "Undefined";
+"Family" = "Familie";
+"Friends" = "Venner";
+
+"Red" = "Rød";
+"Dark Red" = "Mørkerød";
+"Green" = "Grønn";
+"Dark Green" = "Mørk grønn";
+"Blue" = "Blå";
+"Dark Blue" = "Mørkeblå";
+"Orange" = "Oransje";
+"Dark Orange" = "Mørk Oransje";
+
+"DeletePlace" = "Sikker på at du vil slette sted?";
+
+//ContactsSharingViewController
+"Invite" = "Inviter";
+"FirstSelectContact" = "Velg først venn du ønsker å invitere.";
+
+//ChannelSwipeViewController
+"Follow" = "Følg";
+"Unfollow" = "Slutt å følge";
+
+//SeeMeViewController
+"Active" = "Aktiv";
+"Available" = "Tilgjengelig";
+"NoActiveSharing" = "Ingen aktiv posisjonsdeliing akkurat nå.";
+"SelectFriends" = "Vennligst velg venn. Klikk så inviter for å starte.";
+
+//SettingsInfoViewController
+"Profile" = "Profil";
+"Help" = "Hjelp";
+"TermsAndConditions" = "Vilkår og betingelser";
+"LogOut" = "Logg ut";
+"SettingsInfo" = "Innstillinger og info";
+"LogoutConfirm" = "Bekreft at du vil logge ut av OneTraffic?";
+
+//ClearHistory
+"ClearHistory" = "Slett logg";
+"ClearWarning" = "Fjerne historikk kan redusere appytelsen";
+
+//Global
+"Yes" = "Ja";
+"No" = "Nei";
+"NewMessage" = "Ny melding";
+"ConfirmEventReport" = "Are you sure you want to report this event as solved?";
+"Recommend" = "Anbefale";
+"SeesionNotValid" = "Du er ugyldig pålogget. Vennligst logg inn på nytt.";
+"LeaveGroup" = "Vil du virkelig stoppe deling?";
+"NoSearchResults" = "Ingen passende resultat.";
+"NoMessages" = "Ingen meldinger.";
+"FriendInvitation" = "Venneforespørsel";
+
+//NotificationView
+"FriendRequest" = "Venneforespørsel";
+"NewNotifications" = "Nye varsler";
+
+//ReportEventViewController
+"Undefined" = "Udefinert";
+"Accident" = "Uhell";
+"Hazard" = "Fare";
+"ClosedRoad" = "Stengt vei";
+"Police" = "Politi";
+"RoadEvent" = "Road Event";
+"RoadWork" = "Veiarbeid";
+"Traffic" = "Kø";
+"Weather" = "Vær";
+
+//AddCommentViewController
+"AddComment" = "Skriv en kommentar";
+
+//AddressesViewController
+"Address" = "Adresse";

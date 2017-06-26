@@ -1,0 +1,253 @@
+package com.zesium.android.betting.model.util;
+
+/**
+ * Created by Ivan Panic_2 on 6/21/2016.
+ */
+public class TranslationConstants {
+    public static final String LOGIN_WRONG_CREDENTIALS = "LOGIN_WRONG_CREDENTIALS";
+    public static final String SPORTS = "SPORTSBETTING";
+    public static final String SETTINGS = "SETTINGS";
+    public static final String MY_TICKETS = "MY_TICKETS";
+    public static final String LOGIN = "LOGIN";
+    public static final String USER_LOGIN = "USER_LOGIN";
+    public static final String PLEASE_LOGIN = "PLEASE_LOGIN";
+    public static final String OR = "OR";
+    public static final String REGISTER = "REGISTER";
+    public static final String LOGOUT = "LOGOUT";
+    public static final String PLEASE_CHECK_YOUR_INTERNET_CONNECTION = "PLEASE_CHECK_YOUR_INTERNET_CONNECTION";
+    public static final String FIRST_NAME = "FIRST_NAME";
+    public static final String LAST_NAME = "LAST_NAME";
+    public static final String CITY = "CITY";
+    public static final String PHONE_NUMBER = "PHONE_NUMBER";
+    public static final String MBL_ACCOUNT_REGISTER_FORM_DATE_OF_BIRTH_LABEL = "MBL_ACCOUNT_REGISTER_FORM_DATE_OF_BIRTH_LABEL";
+    public static final String PERSONAL_INFORMATION = "PERSONAL_INFORMATION";
+    public static final String COUNTRY = "COUNTRY";
+    public static final String REGION = "REGION";
+    public static final String ZIP_CODE = "ZIP_CODE";
+    public static final String MBL_ACCOUNT_REGISTER_FORM_ADDRESS_PLACEHOLDER = "MBL_ACCOUNT_REGISTER_FORM_ADDRESS_PLACEHOLDER";
+    public static final String EMAIL_EXAMPLE = "EMAIL_EXAMPLE";
+    public static final String TERMS_AND_CONDITIONS = "TERMS_AND_CONDITIONS";
+    public static final String MBL_ACCOUNT_REGISTER_FORM_SECURITY_ANSWER_LABEL = "MBL_ACCOUNT_REGISTER_FORM_SECURITY_ANSWER_LABEL";
+    public static final String CHANGE = "CHANGE";
+    public static final String OLD_PASSWORD = "OLD_PASSWORD";
+    public static final String NEW_PASSWORD = "NEW_PASSWORD";
+    public static final String RETYPE_PASSWORD = "RETYPE_PASSWORD";
+    public static final String MBL_ACCOUNT_REGISTER_FORM_ADDRESS_CAPTION = "MBL_ACCOUNT_REGISTER_FORM_ADDRESS_CAPTION";
+    public static final String JUNIOR = "JUNIOR";
+    public static final String CHOOSE_SECURITY_QUESTION = "CHOOSE_SECURITY_QUESTION";
+    public static final String ACCOUNT_SETTINGS = "ACCOUNT_SETTINGS";
+    public static final String ACCOUNT_SECURITY = "ACCOUNT_SECURITY";
+    public static final String MATCH = "MATCH";
+    public static String RESULT = "RESULT";
+    public static String DATE = "DATE";
+    public static String TIME = "TIME";
+    public static String PAID = "PAID";
+    public static final String MBL_ACCOUNT_REGISTER_FORM_TERM_OF_USE_LABEL = "MBL_ACCOUNT_REGISTER_FORM_TERM_OF_USE_LABEL";
+    public static final String MBL_ACCOUNT_REGISTER_FORM_DATA_RECORDING_LABEL = "MBL_ACCOUNT_REGISTER_FORM_DATA_RECORDING_LABEL";
+    public static final String MBL_ACCOUNT_REGISTER_FORM_EMAIL_NEWSLETTER_LABEL = "MBL_ACCOUNT_REGISTER_FORM_EMAIL_NEWSLETTER_LABEL";
+    public static String CHOOSE_LANGUAGE = "CHOOSE_LANGUAGE";
+    public static String ODDS_REPRESENTATION = "ODDS_REPRESENTATION";
+    public static final String UPDATE = "UPDATE";
+    public static final String MBL_ACCOUNT_REGISTER_FORM_CONTACT_INFORMATION_CAPTION = "MBL_ACCOUNT_REGISTER_FORM_CONTACT_INFORMATION_CAPTION";
+    public static final String CANCEL = "CANCEL";
+    public static final String OK = "OK";
+    public static String TOP_OFFERS = "TOP_OFFERS";
+    public static String MOST_PLAYED_OFFER = "MOST_PLAYED_OFFER";
+    public static String ALL_RIGHT_RESERVED = "ALL_RIGHT_RESERVED";
+    public static final String PASSWORD = "PASSWORD";
+    public static final String USERNAME = "USERNAME";
+    public static final String FORGOT_PASSWORD = "FORGOT_PASSWORD";
+    public static final String SECURITY_QUESTION = "SECURITY_QUESTION";
+    public static String SECURITY = "SECURITY";
+    public static String PERSONAL = "PERSONAL";
+    public static final String HOME = "HOME";
+    public static final String ABOUT = "ABOUT";
+    public static final String LIVE_BETTING = "LIVE_BETTING";
+    public static final String BONUSES = "BONUSES";
+    public static final String CONTACT_US = "CONTACT_US";
+    public static final String REGISTRATION = "REGISTRATION";
+    public static final String RESET_PASSWORD = "RESET_PASSWORD";
+    public static String RECOVERY_DATA_SENT_TO_YOUR_MAIL = "RECOVERY_DATA_SENT_TO_YOUR_MAIL";
+    public static final String USER_NOT_FOUND = "USER_NOT_FOUND";
+    public static final String UNAUTHORIZED = "UNAUTHORIZED";
+    public static final String MBL_ACCOUNT_REGISTER_FORM_EMAIL_LABEL = "MBL_ACCOUNT_REGISTER_FORM_EMAIL_LABEL";
+    public static final String MBL_ACCOUNT_REGISTER_FORM_ADDRESS_LABEL = "MBL_ACCOUNT_REGISTER_FORM_ADDRESS_LABEL";
+    public static final String SUBMIT = "SUBMIT";
+    public static final String MBL_ACCOUNT_RESET_PASSWORD_FORM_SECURITY_ANSWER_PLACEHOLDER = "MBL_ACCOUNT_RESET_PASSWORD_FORM_SECURITY_ANSWER_PLACEHOLDER";
+    public static String TOTAL_ODD = "TOTAL_ODD";
+    public static String MBL_SPRT_TICKET_POSSIBLE_WIN = "MBL_SPRT_TICKET_POSSIBLE_WIN";
+    public static String TICKET_STATUS = "TICKET_STATUS";
+    public static String FINISHED = "FINISHED";
+    public static String CORPORATE = "CORPORATE";
+    public static String STAKE = "STAKE";
+    public static String ODDS = "ODDS";
+    public static final String MBL_ACCOUNT_REGISTER_FORM_ADDRESS_FORMAT = "MBL_ACCOUNT_REGISTER_FORM_ADDRESS_FORMAT";
+    public static final String WRONG_PHONE_FORMAT = "WRONG_PHONE_FORMAT";
+    public static final String WRONG_EMAIL_FORMAT = "WRONG_EMAIL_FORMAT";
+    public static final String VAL_FIRST_NAME = "VAL_FIRST_NAME";
+    public static final String USERNAME_UNAVAILABLE = "USERNAME_UNAVAILABLE";
+    public static final String VAL_RETYPE_PASSWORD = "VAL_RETYPE_PASSWORD";
+    public static final String VAL_PASSWORD = "VAL_PASSWORD";
+    public static final String VAL_LAST_NAME = "VAL_LAST_NAME";
+    public static String ABOUTUS = "ABOUTUS";
+    public static final String CHOOSE_REGION = "CHOOSE_REGION";
+    public static final String CHOOSE_CITY = "CHOOSE_CITY";
+    public static final String CHOOSE_COUNTRY = "CHOOSE_COUNTRY";
+    public static String LB_NO_TICKETS = "LB_NO_TICKETS";
+    public static String MY_FAVORITES = "MY_FAVORITES";
+    public static final String PASSWORD_SUCESSFULLY_CHANGED = "PASSWORD_SUCESSFULLY_CHANGED";
+    public static final String SECURITY_INFO_SUCESFULLY_CHANGED = "SECURITY_INFO_SUCESFULLY_CHANGED";
+    public static final String SENDCLUBCARD = "SENDCLUBCARD";
+    public static final String USERNAME_OR_EMAIL = "USERNAME_OR_EMAIL";
+    public static final String LOGINFAILED = "LOGINFAILED";
+    public static String TICKET_TYPE = "TICKET_TYPE";
+    public static final String WRONG_USERNAME_FORMAT = "WRONG_USERNAME_FORMAT";
+    public static final String RETYPE_YOUR_PASSWORD = "RETYPE_YOUR_PASSWORD";
+    public static final String EMAIL = "EMAIL";
+    public static String SPORTSBETTING = "SPORTSBETTING";
+    public static String SECURITY_ANSWER_NOT_CORRECT = "SECURITY_ANSWER_NOT_CORRECT";
+    public static final String THERE_ARE_NO_MATCHES = "THERE_ARE_NO_MATCHES";
+    public static String ACCEPT_ALL_CHANGES = "ACCEPT_ALL_CHANGES";
+    public static String ACCEPT_ONLY_HIGHER_ODDS = "ACCEPT_ONLY_HIGHER_ODDS";
+    public static final String CURRENTLY_NO_LIVE_MATCHES_IN_PLAY = "CURRENTLY_NO_LIVE_MATCHES_IN_PLAY";
+    public static String TICKET_ID = "TICKET_ID";
+    public static final String AMOUNT = "AMOUNT";
+    public static final String DATE_TIME = "DATE_TIME";
+    public static final String NEW_BALANCE = "NEW_BALANCE";
+
+    public static final String PERSONAL_DATA = "PERSONAL_DATA";
+    public static final String ACCOUNT_HOLDER = "ACCOUNT_HOLDER";
+    public static final String BANK_DATA = "BANK_DATA";
+    public static final String BANK_IDENTIFIER = "BANK_IDENTIFIER";
+    public static final String MBL_ACCOUNT_REGISTER_FORM_COUNTRIES_LABEL = "MBL_ACCOUNT_REGISTER_FORM_COUNTRIES_LABEL";
+    public static final String BANK_ACCOUNT_NUMBER = "BANK_ACCOUNT_NUMBER";
+    public static final String WITHDRAW_DATA = "WITHDRAW_DATA";
+    public static final String CURRENT_BALANCE = "CURRENT_BALANCE";
+    public static final String MIN_WITHDRAW_LIMIT = "MIN_WITHDRAW_LIMIT";
+    public static final String MAX_WITHDRAW_LIMIT = "MAX_WITHDRAW_LIMIT";
+    public static final String WITHDRAW_AMOUNT = "WITHDRAW_AMOUNT";
+    public static final String SECURITY_CONFIRMATION = "SECURITY_CONFIRMATION";
+    public static final String ENTER_PASSWORD = "ENTER_PASSWORD";
+
+    public static final String LESS_THAN_MIN_USER_WITHDRAW = "LESS_THAN_MIN_USER_WITHDRAW";
+    public static final String GREATER_THAN_MAX_USER_WITHDRAW = "GREATER_THAN_MAX_USER_WITHDRAW";
+    public static final String THERE_IS_NOT_ENOUGH_CREDIT = "THERE_IS_NOT_ENOUGH_CREDIT";
+    public static final String MIN_TRANSACTION_FOR_THIS_PROVIDER_IS = "MIN_TRANSACTION_FOR_THIS_PROVIDER_IS";
+    public static final String MAX_TRANSACTION_FOR_THIS_PROVIDER_IS = "MAX_TRANSACTION_FOR_THIS_PROVIDER_IS";
+
+    public static final String BANK_ACCOUNT_INFO_MISSING = "BANK_ACCOUNT_INFO_MISSING";
+    public static final String EDIT_BANK_DATA = "EDIT_BANK_DATA";
+    public static final String UPLOAD_GOVERMENT_ISSUE_ID = "UPLOAD_GOVERMENT_ISSUE_ID";
+    public static final String UPLOAD_ID = "UPLOAD_ID";
+    public static final String TOKEN_EXPIRED = "TOKEN_EXPIRED";
+    public static String INVALID_PAY_IN_AMOUNT = "INVALID_PAY_IN_AMOUNT";
+
+    public static final String PAYMENT = "PAYMENT";
+    public static final String PAYOUT = "PAYOUT";
+    public static final String ACCOUNT_PAY_IN = "ACCOUNT_PAY_IN";
+    public static final String MONEY_TRANSACTIONS = "MONEY_TRANSACTIONS";
+
+    public static String CREATE_NEW_TICKET = "CREATE_NEW_TICKET";
+    public static String REGULAR_TICKET = "REGULAR_TICKET";
+    public static String SYSTEM = "SYSTEM";
+
+    public static String LB_TOTAL_ODDS = "LB_TOTAL_ODDS";
+    public static String PAY_IN_AMOUNT = "PAY_IN_AMOUNT";
+    public static String POSSIBLE_BOUNS = "POSSIBLE_BOUNS";
+    public static String MBL_TICKET_LOOKUP_TICKET_POSSIBLE_WIN_CAPTION = "MBL_TICKET_LOOKUP_TICKET_POSSIBLE_WIN_CAPTION";
+    public static String SEND_TICKET = "SEND_TICKET";
+    public static String REMOVE_ALL_BETS_FROM_TICKET = "REMOVE_ALL_BETS_FROM_TICKET";
+    public static String ALL_RIGHTS_RESERVED = "ALL_RIGHTS_RESERVED";
+
+    public static String RESULT_TIME_FILTER = "RESULT_TIME_FILTER";
+    public static String TODAY = "TODAY";
+    public static String THREE_DAYS = "3_DAYS";
+    public static String WEEK = "WEEK";
+    public static String ALL = "ALL";
+    public static String ODDS_FILTER = "ODDS_FILTER";
+    public static String ENTER_PIN = "ENTER_PIN";
+    public static final String LOGIN_AS_ANOTHER_USER = "LOGIN_AS_ANOTHER_USER";
+
+    public static final String MBL_SPRT_MATCHES_OFFER_CAPTION = "MBL_SPRT_MATCHES_OFFER_CAPTION";
+    public static String AVERAGE_ODDS = "AVERAGE_ODDS";
+
+    public static final String L_USERNAME = "L_USERNAME";
+    public static final String NEW_SECRET_PIN = "NEW_SECRET_PIN";
+    public static String COMPLETE = "COMPLETE";
+    public static String ENTER_TICKET_PIN_AND_CONTROL_SIGN = "ENTER_TICKET_PIN_AND_CONTROL_SIGN";
+    public static final String ENJOY_PLACING_BETS = "ENJOY_PLACING_BETS";
+    public static final String PLEASE_FILL_ALL_FIELDS_TO_COMPLETE_REGISTRATION = "PLEASE_FILL_ALL_FIELDS_TO_COMPLETE_REGISTRATION";
+    public static final String SERVER_NOT_AVAILABLE = "SERVER_NOT_AVAILABLE";
+
+    public static final String MBL_ACCOUNT_REGISTER_FORM_TOASTER_VALIDATION_FAILED_MESSAGE = "MBL_ACCOUNT_REGISTER_FORM_TOASTER_VALIDATION_FAILED_MESSAGE";
+    public static final String SECURITY_INFORMATION = "SECURITY_INFORMATION";
+    public static final String USER_PREFERENCES = "USER_PREFERENCES";
+    public static final String PLEASE_ACCEPT_RECORDING_DATA = "PLEASE_ACCEPT_RECORDING_DATA";
+    public static final String VAL_INVALID_DATE = "VAL_INVALID_DATE";
+    public static final String SMS_CHARGE = "SMS_CHARGE";
+    public static final String SECURITY_SETTINGS = "SECURITY_SETTINGS";
+    public static final String MBL_ACCOUNT_REGISTER_FORM_PERSONAL_INFORMATION_CAPTION = "MBL_ACCOUNT_REGISTER_FORM_PERSONAL_INFORMATION_CAPTION";
+
+    public static final String CHANGE_PERSONAL_DATA_CONTACT_CS = "CHANGE_PERSONAL_DATA_CONTACT_CS";
+    public static String SYSTEM_ODDS_AVERAGE = "SYSTEM_ODDS_AVERAGE";
+    public static final String TOTAL_ODDS = "TOTAL_ODDS";
+    public static String LB_QUICK_TICKET = "LB_QUICK_TICKET";
+    public static String Value = "Value";
+    public static String LB_PROCCESSING_TICKET = "LB_PROCCESSING_TICKET";
+    public static final String MBL_SPRT_TICKET_PLEASE_WAIT = "MBL_SPRT_TICKET_PLEASE_WAIT";
+    public static String TICKET_PROCESSED = "TICKET_PROCESSED";
+    public static String DO_YOU_WANT_TO_REPEAT_TICKET = "DO_YOU_WANT_TO_REPEAT_TICKET";
+    public static String LB_YES = "LB_YES";
+    public static String LB_NO = "LB_NO";
+    public static String MATCH_DETAILS = "MATCH_DETAILS";
+    public static final String MBL_ACCOUNT_RESET_PASSWORD_FORM_USERNAME_EMAIL_PLACEHOLDER = "MBL_ACCOUNT_RESET_PASSWORD_FORM_USERNAME_EMAIL_PLACEHOLDER";
+    public static final String ENTER_SECRET_ANSWER = "ENTER_SECRET_ANSWER";
+    public static final String MBL_ACCOUNT_PAYOUT_PROVIDER_FORM_PASSWORD_PLACEHOLDER = "MBL_ACCOUNT_PAYOUT_PROVIDER_FORM_PASSWORD_PLACEHOLDER";
+    public static final String LB_OK = "LB_OK";
+
+    public static final String WORKING_HOURS_TITLE = "WORKING_HOURS_TITLE";
+    public static final String WORKING_DAYS_VALUE = "WORKING_DAYS_VALUE";
+    public static final String WORKING_HOURS_VALUE = "WORKING_HOURS_VALUE";
+    public static final String PHONE_NUMBER_VALUE = "PHONE_NUMBER_VALUE";
+    public static String ADDRESS_NUMBER_EXAMPLE = "ADDRESS_NUMBER_EXAMPLE";
+    public static final String REGION_VALUE = "REGION_VALUE";
+    public static final String CITY_VALUE = "CITY_VALUE";
+    public static final String EMAIL_VALUE = "EMAIL_VALUE";
+    public static final String VERSION = "VERSION";
+    public static final String VERSION_VALUE = "VERSION_VALUE";
+    public static String MBL_SPRT_TICKET_CALCULATION_DETAILS_CAPTION = "MBL_SPRT_TICKET_CALCULATION_DETAILS_CAPTION";
+    public static String LAST_MATCHES = "LAST_MATCHES";
+    public static String HEAD_TO_HEAD = "HEAD_TO_HEAD";
+    public static String WIN = "WIN";
+    public static String DRAW = "DRAW";
+    public static String UNDER = "UNDER";
+    public static String OVER = "OVER";
+    public static final String TOKEN_HAS_EXPIRED = "TOKEN_HAS_EXPIRED";
+    public static String CHANGE_THEME = "CHANGE_THEME";
+    public static String SOUND_NOTIFICATION = "SOUND_NOTIFICATION";
+    public static String NO_DATA_FOR_STATISTICS = "NO_DATA_FOR_STATISTICS";
+    public static final String EXIT_DIALOG_MSG = "EXIT_DIALOG_MSG";
+    public static final String LOGOUT_DIALOG_MSG = "LOGOUT_DIALOG_MSG";
+    public static final String MBL_ACCOUNT_RESET_PASSWORD_SUCCESS_MESSAGE = "MBL_ACCOUNT_RESET_PASSWORD_SUCCESS_MESSAGE";
+    public static final String WARNING = "WARNING";
+    public static String LOGIN_FIRST = "LOGIN_FIRST";
+    public static final String ADV = "ADV";
+
+    public static final String ENTER_PIN_CODE = "ENTER_PIN_CODE";
+
+    // System ticket
+    public static String COMBINATION = "COMBINATION";
+
+
+    public static final String CONFIRM = "CONFIRM";
+    public static String UPDATE_ODDS = "UPDATE_ODDS";
+    public static String ODD_HAS_BEEN_CHANGED_TO = "ODD_HAS_BEEN_CHANGED_TO";
+    public static String OFFER_BLOCKED = "OFFER_BLOCKED";
+    public static String T_B_ERR_NO_OFFER = "T_B_ERR_NO_OFFER";
+    public static String ERR_LIVEBET_BLOCKED = "ERR_LIVEBET_BLOCKED";
+    public static String T_INFO_PLEASE_SELECT_SYSTEM = "T_INFO_PLEASE_SELECT_SYSTEM";
+    public static String T_B_ERR_OFFER_IS_BLOCKED = "T_B_ERR_OFFER_IS_BLOCKED";
+    public static String GROUP_COMB = "GROUP_COMB";
+    public static String ERROR_COMUNICATING_WITH_SERVER_CHECK_TICKET_LATER = "ERROR_COMUNICATING_WITH_SERVER_CHECK_TICKET_LATER";
+
+}

@@ -1,0 +1,253 @@
+/*
+ Localizable.strings
+ OneTraffic
+ 
+ Created by Stefan Andric on 12/21/15.
+ Copyright © 2015 Zesium. All rights reserved.
+ */
+
+
+"Error" = "Error";
+"UnknownError" = "Unknown error";
+"Edit" = "Edit";
+"Services" = "Services";
+"Stop" = "Stop";
+
+//TermsViewController
+"terms_text" = "IMPORTANT - PLEASE READ THESE TERMS AND CONDITIONS AND THE RELATED DOCUMENTS IDENTIFIED BELOW CAREFULLY BEFORE OPENING USING OUR SERVICES. THIS ONLINE AND CELLULAR MEDIA SERVICE AGREEMENT (\"AGREEMENT\") IS A BINDING LEGAL CONTRACT BETWEEN YOU AND ONETRAFFIC, INC. (\"WE\", “OUR”, \"US\", OR \"ONETRAFFIC\"). BY DOWNLOADING, INSTALLING, ACCESSING OR USING THE SOFTWARE, SERVICES, AND ANY OTHER MATERIALS MADE AVAILABLE BY US (COLLECTIVELY, THE \"SERVICES\"), YOU (A) AGREE TO BE BOUND BY THIS AGREEMENT; (B) ACKNOWLEDGE AND AGREE YOU HAVE INDEPENDENTLY EVALUATED THE DESIRABILITY OF USING THE SERVICES; AND (C) REPRESENT YOU ARE LAWFULLY ABLE TO ENTER INTO CONTRACTS AND ARE OF THE LEGAL AGE OF MAJORITY IN THE JURISDICTION IN WHICH YOU RESIDE (AT LEAST EIGHTEEN YEARS OF AGE IN MANY COUNTRIES). IN ADDITION, IF THIS AGREEMENT IS BEING AGREED TO BY A COMPANY OR OTHER LEGAL ENTITY, THEN THE PERSON AGREEING TO THIS AGREEMENT ON BEHALF OF THAT COMPANY OR ENTITY REPRESENTS AND WARRANTS THAT HE OR SHE IS AUTHORIZED AND LAWFULLY ABLE TO BIND THAT COMPANY OR ENTITY TO THIS AGREEMENT. YOU SHOULD PRINT AND RETAIN A COPY OF THIS AGREEMENT FOR YOUR RECORDS BY USING THE PRINT FUNCTIONALITY IN YOUR BROWSER. THE CONDITIONS ARE SUBJECT TO CHANGE FROM TIME TO TIME AS DESCRIBED BELOW. PLEASE READ THIS DOCUMENT CAREFULLY. IT CONTAINS IMPORTANT INFORMATION ABOUT YOUR RIGHTS AND OBLIGATIONS. IT ALSO CONTAINS A DISPUTE RESOLUTION CLAUSE. IF YOU DO NOT AGREE TO THIS AGREEMENT, YOU MAY NOT USE THESE SERVICES.\n\nServices\nDa da";
+
+//LoginViewController
+"LogIn" = "LOG IN";
+"Create new" = "Or, create new account";
+"Forgot your password?"= "Forgot password?";
+"Reset" = "RESET";
+
+//CountriesListViewController
+"SelectCountry" = "Select country";
+
+//SettingViewController
+"en" = "English";
+"nb" = "Norwegian";
+"Language" = "Language";
+"AlertRadius" = "Alert Radius";
+"AlertSound" = "Alert Sound";
+"Unit" = "Unit";
+"Time" = "Time/24";
+"Distance" = "Distance";
+"Save" = "Save";
+"Skip" = "Skip";
+"AllowDataUsage" = "Allow Anonymous Data";
+"ClearHistoryConfirm" = "Are you sure you want to clear history?";
+
+//SignUpViewController
+"Name"= "Real first and last name";
+"Password"= "Password";
+"RepeatPassword" = "Repeat Password";
+"Email"= "Email";
+"Mobile phone"= "Mobile phone";
+"OK"="OK";
+"Sign Up"= "SIGN UP";
+"Send"="Send";
+"Terms of use"="Terms of use";
+"RepeatPassword" = "Repeat Password";
+"JoiningTerms" = "By joining I accept the Terms of use";
+
+//CodeViewController
+"Enter code" = "Enter Code";
+"Next" = "NEXT";
+"ResendCode" = "Resend code";
+"SentSms" = "An access code has been sent to you by SMS.";
+
+//ProfileViewController
+"PIN" = "PIN";
+"Phone Number"= "Phone Number";
+"Member Since"= "Member Since";
+"Gender"= "Gender";
+"Birthdate"= "Birth date";
+"camera_text"="Camera";
+"gallery_text"= "Gallery";
+"Cancel"= "Cancel";
+"Empty" = "Empty";
+"MemberSince" = "Member Since";
+"Male" = "Male";
+"Female" = "Female";
+"ChangePassword" = "Change password";
+"OldPassword" = "Old password";
+"NewPassword" = "New password";
+"ConfirmPassword" = "Confirm new password";
+"NotValidDate" = "Not valid date";
+"ValidMail" = "Mail must be valid in case of password recovering. No spam.";
+"SelectGender" = "Please choose gender.";
+"ProfileUpdated" = "Profile updated";
+
+"ChooseBirthdate" = "Please choose birthdate.";
+
+"Done" = "Done";
+
+//Login error codes
+"125000" = "Couldn't get all necessary data from client";
+"125003" = "Password is wrong";
+"125004" = "User didn't finish sign up process";
+"125005" = "Phone number does not exist in database";
+"125020" = "Database problem";
+
+
+//Sign up error codes
+"102000" = "Couldn't get all necessary data from url";
+"102001" = "Phone number is already in database";
+"102002" = "Phone number is already in database";
+"102020"= "Database problem";
+
+//Number verification error codes
+"103000"= "Couldn't get all necessary data from url";
+"103001"= "SMS Code is wrong";
+"103002"= "User id is wrong";
+"103010"= "Database problem";
+"103020"= "Database problem";
+
+//Quick Messages
+"Ok" = "Ok";
+"No" = "No";
+"Driving" = "Driving";
+"Delayed" = "Delayed";
+"Locator" = "Locator";
+"Started" = "Started";
+"Soon" = "Soon";
+"When?" = "When?";
+"Where?" = "Where?";
+
+"Started" = "Started"; //Startet
+"Arrived" = "Arrived";//Fremme
+"Pickups?" = "Pickups?";//Ta med?
+
+//CommunicatorViewController
+"Search" = "Search";
+"Today" = "Today";
+"Yesterday" = "Yesterday";
+"Delete" = "Delete";
+"DeleteSure" = "Are you sure you want to delete this?";
+"FriendInvitation" = "";
+
+"Invited" = "Invited";
+"Accepted" = "Accepted";
+"Declined" = "Declined";
+"Sent" = "Sent";
+"Accept" = "Accept";
+"Message" = "Message";
+"Active" = "Active";
+"Leaved" = "Leaved";
+"Finished" = "Finished";
+"Pending" = "Pending";
+"Declined" = "Declined";
+"Expired" = "Expired";
+"SentRequest" = "Request sent";
+"LocationSharing" = "Location sharing";
+"Request" = "Request";
+"FriendInvitation" = "FriendInvitation";
+
+//LineUpViewController
+"MyLocation" = "MY LOCATION";
+
+//TopBar
+"NextPlace" = "Please select next place";
+
+//PlusMenu
+"AddPlace" = "Add Place";
+"AddFriend" = "Add Friend";
+"Channels" = "Channels";
+"Locator" = "Locator";
+"ReportEvent" = "Report Event";
+"Settings" = "Settings";
+"Event" = "Event";
+
+//DestinationListViewController
+"Places" = "Places";
+"AddPlace" = "Add place";
+"NamePlace" = "Name";
+"Street" = "Street";
+"MyPlace" = "My place";
+
+"Home" = "Home";
+"Work" = "Work";
+"Sports" = "Sports";
+"Culture" = "Culture";
+"School" = "School";
+"Transportation" = "Transportation";
+"Commercial" = "Commercial";
+"Parking" = "Parking";
+"Undefined" = "Undefined";
+"Family" = "Family";
+"Friends" = "Friends";
+
+"Red" = "Red";
+"Dark Red" = "Dark Red";
+"Green" = "Green";
+"Dark Green" = "Dark Green";
+"Blue" = "Blue";
+"Dark Blue" = "Dark Blue";
+"Orange" = "Orange";
+"Dark Orange" = "Dark Orange";
+
+"DeletePlace" = "Are you sure you want to delete place?";
+
+
+
+//ContactsSharingViewController
+"Invite" = "Invite";
+"FirstSelectContact" = "First select contact to invite.";
+
+
+//ChannelSwipeViewController
+"Follow" = "Follow";
+"Unfollow" = "Unfollow";
+
+//SeeMeViewController
+"Active" = "Active";
+"Available" = "Available";
+"NoActiveSharing" = "No active sharing right now.";
+"SelectFriends" = "Please select friends. Then tap invite to start.";
+
+//SettingsInfoViewController
+"Profile" = "Profile";
+"Help" = "Help";
+"TermsAndConditions" = "Terms and Conditions";
+"LogOut" = "Log out";
+"SettingsInfo" = "Settings and info";
+"LogoutConfirm" = "Are you sure you want to log out from OneTraffic?";
+
+//ClearHistory
+"ClearHistory" = "Clear history";
+"ClearWarning" = "Clearing history may reduce app performance";
+
+//Global
+"Yes" = "Yes";
+"No" = "No";
+"NewMessage" = "New Message";
+"ConfirmEventReport" = "Are you sure you want to report this event as solved?";
+"Recommend" = "Recommend";
+"SeesionNotValid" = "This session is not valid. You will be logged out.";
+"LeaveGroup" = "Are you sure you want leave group?";
+"NoSearchResults" = "There are no search results.";
+"NoMessages" = "No messages.";
+"FriendInvitation" = "Friend invitation";
+
+//NotificationView
+"FriendRequest" = "Friend Request";
+"NewNotifications" = "New notifications";
+
+//ReportEventViewController
+"Undefined" = "Undefined";
+"Accident" = "Accident";
+"Hazard" = "Hazard";
+"ClosedRoad" = "Closed Road";
+"Police" = "Police";
+"RoadEvent" = "Road Event";
+"RoadWork" = "Road Work";
+"Traffic" = "Traffic";
+"Weather" = "Weather";
+
+//AddCommentViewController
+"AddComment" = "Add comment";
+
+//AddressesViewController
+"Address" = "Address";

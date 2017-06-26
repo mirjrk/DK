@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.zesium.android.betting.ui.widgets.SFFontTextView
+        android:id="@+id/tv_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:gravity="start"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:textColor="@color/primary_red"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.42"
+            android:orientation="vertical">
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_date_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ticket_date_and_time"
+                android:textColor="@color/sports_betting_odd" />
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?textColor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.22"
+            android:orientation="vertical">
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_amount_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/transactions_amount_title"
+                android:textColor="@color/sports_betting_odd" />
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="?textColor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.36"
+            android:orientation="vertical">
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_new_balance_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/transactions_new_balance_title"
+                android:textColor="@color/sports_betting_odd" />
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_new_balance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="?textColor" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="6dp"
+        android:background="?sportsBettingDivider" />
+
+</LinearLayout>

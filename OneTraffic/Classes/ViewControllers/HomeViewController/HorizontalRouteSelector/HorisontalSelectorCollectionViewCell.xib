@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="horisontallRouteCell" id="gTV-IL-0wX" customClass="HorizontalSelectorCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RLM-Qc-QEZ">
+                        <rect key="frame" x="0.0" y="0.0" width="180" height="100"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15km\12min" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VK2-hU-LN9">
+                                <rect key="frame" x="0.0" y="0.0" width="180" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.44705882352941173" green="1" blue="0.49019607843137253" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nwv-NQ-8ze">
+                                <rect key="frame" x="0.0" y="0.0" width="180" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nwv-NQ-8ze" firstAttribute="top" secondItem="RLM-Qc-QEZ" secondAttribute="top" id="J8r-9Q-xuR"/>
+                            <constraint firstItem="VK2-hU-LN9" firstAttribute="top" secondItem="RLM-Qc-QEZ" secondAttribute="top" id="Rsn-x3-4DH"/>
+                            <constraint firstItem="VK2-hU-LN9" firstAttribute="leading" secondItem="RLM-Qc-QEZ" secondAttribute="leading" id="WmZ-Lm-Cxs"/>
+                            <constraint firstItem="nwv-NQ-8ze" firstAttribute="leading" secondItem="RLM-Qc-QEZ" secondAttribute="leading" id="ZUL-Sf-uOu"/>
+                            <constraint firstAttribute="trailing" secondItem="VK2-hU-LN9" secondAttribute="trailing" id="btn-xc-vBT"/>
+                            <constraint firstAttribute="bottom" secondItem="VK2-hU-LN9" secondAttribute="bottom" id="hMs-7H-Nk7"/>
+                            <constraint firstAttribute="bottom" secondItem="nwv-NQ-8ze" secondAttribute="bottom" id="lyv-0r-isE"/>
+                            <constraint firstAttribute="trailing" secondItem="nwv-NQ-8ze" secondAttribute="trailing" id="pkc-5D-5q1"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="22"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="RLM-Qc-QEZ" secondAttribute="bottom" id="0X5-aD-XQ9"/>
+                <constraint firstItem="RLM-Qc-QEZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="2l0-iZ-KRK"/>
+                <constraint firstItem="RLM-Qc-QEZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="KEh-ys-9et"/>
+                <constraint firstAttribute="trailing" secondItem="RLM-Qc-QEZ" secondAttribute="trailing" id="qBq-OW-ubL"/>
+            </constraints>
+            <size key="customSize" width="180" height="100"/>
+            <connections>
+                <outlet property="backroundView" destination="RLM-Qc-QEZ" id="CNE-oe-KuK"/>
+                <outlet property="routeLabel" destination="VK2-hU-LN9" id="KdX-b7-h3U"/>
+                <outlet property="selectedIndicatorView" destination="nwv-NQ-8ze" id="0rq-Mi-UIC"/>
+            </connections>
+            <point key="canvasLocation" x="155" y="84"/>
+        </collectionViewCell>
+    </objects>
+</document>

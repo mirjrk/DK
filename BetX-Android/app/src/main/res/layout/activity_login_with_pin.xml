@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?backgroundLayoutColorRegistration"
+    android:orientation="vertical"
+    tools:context=".ui.user.LoginWithPinActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/toolbar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <com.zesium.android.betting.ui.widgets.SFFontTextView
+                    android:id="@+id/tv_user_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="@string/tv_user_id" />
+                <!--android:textColor="@color/navigationBarColor"-->
+
+                <com.zesium.android.betting.ui.widgets.SFFontTextView
+                    android:id="@+id/tv_user_id_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/gray_text_pin" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:background="@color/gray_line_divider" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.zesium.android.betting.ui.widgets.SFFontTextView
+                        android:id="@+id/enter_pin_code_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        tools:text="@string/tv_enter_pin_code" />
+                    <!--android:textColor="@color/navigationBarColor"-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <com.zesium.android.betting.ui.widgets.SFFontEditText
+                            android:id="@+id/et_pin_first"
+                            android:layout_width="50dp"
+                            android:layout_height="@dimen/pin_50dp"
+                            android:layout_marginLeft="@dimen/pin_label_margin"
+                            android:layout_marginRight="@dimen/pin_label_margin"
+                            android:background="?etBoxLoginWithPin"
+                            android:cursorVisible="false"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:longClickable="false"
+                            android:maxLength="1" />
+
+                        <com.zesium.android.betting.ui.widgets.SFFontEditText
+                            android:id="@+id/et_pin_second"
+                            android:layout_width="50dp"
+                            android:layout_height="@dimen/pin_50dp"
+                            android:layout_marginLeft="@dimen/pin_label_margin"
+                            android:layout_marginRight="@dimen/pin_label_margin"
+                            android:background="?etBoxLoginWithPin"
+                            android:cursorVisible="false"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:longClickable="false"
+                            android:maxLength="1" />
+
+                        <com.zesium.android.betting.ui.widgets.SFFontEditText
+                            android:id="@+id/et_pin_third"
+                            android:layout_width="50dp"
+                            android:layout_height="@dimen/pin_50dp"
+                            android:layout_marginLeft="@dimen/pin_label_margin"
+                            android:layout_marginRight="@dimen/pin_label_margin"
+                            android:background="?etBoxLoginWithPin"
+                            android:cursorVisible="false"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:longClickable="false"
+                            android:maxLength="1" />
+
+                        <com.zesium.android.betting.ui.widgets.SFFontEditText
+                            android:id="@+id/et_pin_forth"
+                            android:layout_width="50dp"
+                            android:layout_height="@dimen/pin_50dp"
+                            android:layout_marginLeft="@dimen/pin_label_margin"
+                            android:layout_marginRight="@dimen/pin_label_margin"
+                            android:background="?etBoxLoginWithPin"
+                            android:cursorVisible="false"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:longClickable="false"
+                            android:maxLength="1" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_edit_text_block_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/custom_tab_layout_height"
+                    android:background="@null"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentTop="true" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:background="@color/gray_line_divider" />
+
+            <com.zesium.android.betting.ui.widgets.SFFontTextView
+                android:id="@+id/tv_login_as_another_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                tools:text="@string/login_as_another_user"
+                android:textColor="@color/accent_red"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_submit_pin"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/pin_50dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="@dimen/pin_50dp"
+                android:layout_marginRight="@dimen/pin_50dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/btn_default"
+                android:gravity="center"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

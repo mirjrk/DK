@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="240dp"
+                android:layout_height="32dp"
+                android:background="?matchDetailsOddBackground"
+                android:minWidth="240dp"
+                android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="240dp"
+        android:minWidth="240dp"
+        android:layout_height="35dp"
+        android:background="?radioButtonsSportBetting"
+        android:button="@null"
+        android:checked="false"
+        android:focusable="false"
+        android:clickable="false"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_text_parent"
+        android:layout_width="240dp"
+        android:layout_height="32dp"
+        android:padding="5dp">
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:ellipsize="none"
+            android:fadingEdge="horizontal"
+            android:fontFamily="trebuchet"
+            android:gravity="start"
+            android:lines="1"
+            android:maxLines="1"
+            android:requiresFadingEdge="horizontal"
+            android:singleLine="true"
+            android:textColor="@drawable/rb_text_selector"/>
+
+        <com.zesium.android.betting.ui.widgets.SFFontTextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/textView2"
+            android:layout_toStartOf="@id/textView2"
+            android:ellipsize="none"
+            android:fadingEdge="horizontal"
+            android:fontFamily="trebuchet"
+            android:gravity="start"
+            android:lines="1"
+            android:maxLines="1"
+            android:requiresFadingEdge="horizontal"
+            android:singleLine="true"
+            android:textColor="@drawable/rb_text_selector"/>
+    </RelativeLayout>
+
+</RelativeLayout>
